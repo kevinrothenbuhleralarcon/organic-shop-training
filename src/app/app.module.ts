@@ -8,10 +8,12 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { FIREBASE_OPTIONS } from '@angular/fire/compat';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BsNavbarComponent
   ],
   imports: [
     BrowserModule,
